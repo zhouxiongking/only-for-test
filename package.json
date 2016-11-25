@@ -23,11 +23,15 @@
   },
   "homepage": "https://github.com/zhouxiongking/only-for-test#readme",
   "devDependencies": {
+    "cz-conventional-changelog": "^1.2.0",
     "validate-commit-msg": "^2.8.2"
   },
   "config": {
     "ghooks": {
       "commit-msg": "./validate-commit-msg.js"
+    },
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
     }
   }
 }
